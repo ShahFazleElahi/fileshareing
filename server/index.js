@@ -1,7 +1,7 @@
 import express from 'express';
 import router from './routes/routes.js';
 import cors from 'cors'
-import DbConnection from '../clint/src/services/database/db.js';
+import DbConne ction from '../clint/src/services/database/db.js';
 
 
 const app = express();
